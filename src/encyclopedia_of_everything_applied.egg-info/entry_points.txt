@@ -1,0 +1,2 @@
+[console_scripts]
+encyclopedia = encyclopedia.__main__:main
