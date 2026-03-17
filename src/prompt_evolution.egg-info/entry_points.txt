@@ -1,0 +1,2 @@
+[console_scripts]
+prompt-evolution = prompt_evolution.cli:main
