@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-evolution"
+version = "0.1.0"
+description = "Evolutionary Prompt Engineering — build better prompts through selection, mutation and crossover."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["prompt engineering", "evolutionary algorithms", "AI", "LLM"]
+
+[project.scripts]
+prompt-evolution = "prompt_evolution.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
