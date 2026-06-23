@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Node / JavaScript / TypeScript
+node_modules/
+npm-debug.log*
+yarn-error.log
+.yarn/
+dist/
+out/
+.next/
+.nuxt/
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+vendor/
+*.exe
+
+# Java / Kotlin / Scala
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+
+# C / C++ / Zig
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Ruby
+.bundle/
+Gemfile.lock
+
+# Swift / Xcode
+.build/
+DerivedData/
+*.xcworkspace/
+
+# Haskell
+.stack-work/
+dist-newstyle/
+
+# R
+.Rhistory
+.RData
+
+# Julia
+Manifest.toml
+
+# PHP
+vendor/
+composer.lock
+
+# Elixir
+_build/
+deps/
+.elixir_ls/
+
+# Blockchain
+artifacts/
+cache/
+typechain-types/
+.openzeppelin/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Secrets / env files
+.env
+.env.*
+secrets/
+
+# ML / AI artefacts
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+mlruns/
+wandb/
