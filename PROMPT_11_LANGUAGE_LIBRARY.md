@@ -30,6 +30,9 @@ Connected engines:
 - Awareness
 - Repo Communication
 - CRM Support
+- AI Clone Hermes Fabric Engines
+- Swarms Systems
+- AI Copilot
 
 ## Learning and Practice Path
 
